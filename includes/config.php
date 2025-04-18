@@ -1,11 +1,11 @@
 <?php
 
 $db_host = 'localhost';
-$db_name = 'faculty_assesment';
+$db_name = 'new';
 $db_user = 'root'; 
-$db_password = ''; 
+$db_password = 'aman'; 
 
-$base_url = '/fms-master/'; 
+$base_url = '/fms_master/'; 
 
 ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);

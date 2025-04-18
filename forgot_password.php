@@ -12,13 +12,13 @@ function send_otp($email, $otp) {
         $mail->isSMTP();
         $mail->Host = 'smtp.gmail.com'; 
         $mail->SMTPAuth = true;
-        $mail->Username = 'viciousflagbearer@gmail.com'; 
-        $mail->Password = 'etzg ailh biai nski';    
+        $mail->Username = 'testing442user@gmail.com'; 
+        $mail->Password = 'kkhb jwni kldb xwml';    
         $mail->SMTPSecure = 'tls';
         $mail->Port = 587;
 
         
-        $mail->setFrom('ayushsingh123102@gmail.com', 'FARS Support');
+        $mail->setFrom('sniperking5681@gmail.com', 'FARS Support');
         $mail->addAddress($email);
 
         

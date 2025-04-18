@@ -15,14 +15,14 @@ try {
     $mail->isSMTP();
     $mail->Host       = 'smtp.gmail.com';
     $mail->SMTPAuth   = true;
-    $mail->Username   = 'viciousflagbearer@gmail.com'; 
-    $mail->Password   = 'etzg ailh biai nski'; 
+    $mail->Username   = 'testing442user@gmail.com'; 
+    $mail->Password   = 'kkhb jwni kldb xwml'; 
     $mail->SMTPSecure = 'tls';
     $mail->Port       = 587;
 
    
     $mail->setFrom($email,$name);
-    $mail->addAddress('ayushsingh123102@gmail.com');
+    $mail->addAddress('sniperking5681@gmail.com');
 
 
     $mail->isHTML(true);
@@ -185,7 +185,7 @@ try {
       <p>Pincode: 444000, Punjab, INDIA</p>
       <h2>+91 7007471499</h2>
       <p>Monday - Saturday, 10AM - 6PM</p>
-      <h2>ayushsingh123102@gmail.com</h2>
+      <h2>sniperking5681@gmail.com</h2>
     </div>
 
     <div class="form-container">

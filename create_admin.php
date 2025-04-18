@@ -6,9 +6,9 @@ ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
 
 
-$admin_firstname = "Ayush";
-$admin_lastname = "Singh"; 
-$admin_email = "admin@faculty.edu";  
+$admin_firstname = "Tester";
+$admin_lastname = "New"; 
+$admin_email = "sudo@faculty.edu";  
 $admin_password = "admin123";
 
 try {
